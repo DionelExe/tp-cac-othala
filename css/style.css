@@ -12,21 +12,10 @@ body{
 
 .cont-logo img:hover {
     /* Agrandar el logo al pasar el mouse sobre él */
-    transform: scale(1.1); /* Ajusta el valor de escala según lo que desees */
+    transform: scale(1.01); /* Ajusta el valor de escala según lo que desees */
     transition: transform 0.3s ease; /* Añade una transición suave */
 }
-
-
-@keyframes rotate-logo {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-    
+  
 .cont-nav{
     display: flex;
     flex-flow: row wrap;
